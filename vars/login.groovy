@@ -7,7 +7,7 @@
 
 
 def call(name){
-    echo "hey ${name}"
+    echo "the image name willbe  arunbabu01/${name}"
 
     sh "docker tag ${name} arunbabu01/${name}"
     sh "docker login -u arunbabu01 -p Arunappu@123#"
