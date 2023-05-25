@@ -10,5 +10,5 @@ def call(name){
     echo "hey ${name}"
     sh 'whoami'
 
-    sh "docker image ${name}"
+    sh "docker tag ${name} arunbabu01/${name}"
 }
