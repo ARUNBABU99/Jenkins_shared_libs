@@ -8,7 +8,6 @@
 
 def call(name){
     echo "hey ${name}"
-    sh 'whoami'
 
     sh "docker tag ${name} arunbabu01/${name}"
     sh "docker login -u arunbabu01 -p Arunappu@123#"
